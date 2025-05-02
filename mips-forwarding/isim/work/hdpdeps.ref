@@ -1,0 +1,148 @@
+V3 83
+FL C:/Users/fatih/Desktop/faks/ra/mips/alu.vhd 2018/05/16.21:48:05 J.36
+EN work/alu 1526500355 FL C:/Users/fatih/Desktop/faks/ra/mips/alu.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/alu/behave 1526500356 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/alu.vhd EN work/alu 1526500355
+FL C:/Users/fatih/Desktop/faks/ra/mips/glavna_komponenta.vhd 2018/06/24.19:05:11 J.36
+EN work/glavna_komponenta 1529860325 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/glavna_komponenta.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/glavna_komponenta/Behavioral 1529860326 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/glavna_komponenta.vhd \
+      EN work/glavna_komponenta 1529860325 CP pc CP vanjska_mem_instr CP increment \
+      CP mux_pc CP preg_ifid CP registri CP sign_extend CP preg_idex CP mux_a CP mux_b \
+      CP mux_mem_data_in CP alu CP preg_exmem CP vanjska_mem_podaci CP preg_memwb \
+      CP mux_wb CP wait_memwb CP wait_ifid_idex CP wait_exmem_memwb
+FL C:/Users/fatih/Desktop/faks/ra/mips/increment.vhd 2018/05/16.21:48:16 J.36
+EN work/increment 1526500339 FL C:/Users/fatih/Desktop/faks/ra/mips/increment.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/increment/Behavioral 1526500340 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/increment.vhd EN work/increment 1526500339
+FL C:/Users/fatih/Desktop/faks/ra/mips/mux_a.vhd 2018/05/21.23:27:25 J.36
+EN work/mux_a 1529792855 FL C:/Users/fatih/Desktop/faks/ra/mips/mux_a.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mux_a/Behavioral 1529792856 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_a.vhd EN work/mux_a 1529792855
+FL C:/Users/fatih/Desktop/faks/ra/mips/mux_b.vhd 2018/05/21.23:29:25 J.36
+EN work/mux_b 1529792857 FL C:/Users/fatih/Desktop/faks/ra/mips/mux_b.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mux_b/Behavioral 1529792858 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_b.vhd EN work/mux_b 1529792857
+FL C:/Users/fatih/Desktop/faks/ra/mips/mux_mem_data_in.vhd 2018/05/21.23:50:03 J.36
+EN work/mux_mem_data_in 1529792859 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_mem_data_in.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mux_mem_data_in/Behavioral 1529792860 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_mem_data_in.vhd \
+      EN work/mux_mem_data_in 1529792859
+FL C:/Users/fatih/Desktop/faks/ra/mips/mux_pc.vhd 2018/05/16.21:50:48 J.36
+EN work/mux_pc 1526500341 FL C:/Users/fatih/Desktop/faks/ra/mips/mux_pc.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mux_pc/Behavioral 1526500342 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_pc.vhd EN work/mux_pc 1526500341
+FL C:/Users/fatih/Desktop/faks/ra/mips/mux_wb.vhd 2018/05/16.21:50:49 J.36
+EN work/mux_wb 1526500363 FL C:/Users/fatih/Desktop/faks/ra/mips/mux_wb.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mux_wb/Behavioral 1526500364 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/mux_wb.vhd EN work/mux_wb 1526500363
+FL C:/Users/fatih/Desktop/faks/ra/mips/pc.vhd 2018/05/16.21:50:48 J.36
+EN work/pc 1526500335 FL C:/Users/fatih/Desktop/faks/ra/mips/pc.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/pc/Behavioral 1526500336 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/pc.vhd EN work/pc 1526500335
+FL C:/Users/fatih/Desktop/faks/ra/mips/preg_exmem.vhd 2018/05/16.21:50:49 J.36
+EN work/preg_exmem 1526500357 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_exmem.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/preg_exmem/Behavioral 1526500358 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_exmem.vhd EN work/preg_exmem 1526500357
+FL C:/Users/fatih/Desktop/faks/ra/mips/preg_idex.vhd 2018/06/24.15:49:02 J.36
+EN work/preg_idex 1529848151 FL C:/Users/fatih/Desktop/faks/ra/mips/preg_idex.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/preg_idex/Behavioral 1529848152 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_idex.vhd EN work/preg_idex 1529848151
+FL C:/Users/fatih/Desktop/faks/ra/mips/preg_ifid.vhd 2018/05/16.21:50:48 J.36
+EN work/preg_ifid 1526500343 FL C:/Users/fatih/Desktop/faks/ra/mips/preg_ifid.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/preg_ifid/Behavioral 1526500344 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_ifid.vhd EN work/preg_ifid 1526500343
+FL C:/Users/fatih/Desktop/faks/ra/mips/preg_memwb.vhd 2018/06/24.17:57:28 J.36
+EN work/preg_memwb 1529855849 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_memwb.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/preg_memwb/Behavioral 1529855850 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/preg_memwb.vhd EN work/preg_memwb 1529855849
+FL C:/Users/fatih/Desktop/faks/ra/mips/registri.vhd 2018/06/24.16:37:18 J.36
+EN work/registri 1529851040 FL C:/Users/fatih/Desktop/faks/ra/mips/registri.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/registri/Behavioral 1529851041 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/registri.vhd EN work/registri 1529851040
+FL C:/Users/fatih/Desktop/faks/ra/mips/sign_extend.vhd 2018/05/16.21:50:49 J.36
+EN work/sign_extend 1526500347 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/sign_extend.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/sign_extend/Behavioral 1526500348 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/sign_extend.vhd EN work/sign_extend 1526500347
+FL C:/Users/fatih/Desktop/faks/ra/mips/test_bench.vhd 2018/06/24.00:29:51 J.36
+EN work/test_bench_vhd 1529860327 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/test_bench.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/STD_LOGIC_UNSIGNED 1179176991 \
+      PB ieee/NUMERIC_STD 1179176997
+AR work/test_bench_vhd/behavior 1529860328 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/test_bench.vhd \
+      EN work/test_bench_vhd 1529860327 CP glavna_komponenta
+FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_instr.vhd 2018/06/24.19:11:56 J.36
+EN work/vanjska_mem_instr 1529860323 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_instr.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/vanjska_mem_instr/Behavioral 1529860324 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_instr.vhd \
+      EN work/vanjska_mem_instr 1529860323
+FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_podaci.vhd 2018/06/24.18:16:05 J.36
+EN work/vanjska_mem_podaci 1529856974 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_podaci.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/vanjska_mem_podaci/Behavioral 1529856975 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/vanjska_mem_podaci.vhd \
+      EN work/vanjska_mem_podaci 1529856974
+FL C:/Users/fatih/Desktop/faks/ra/mips/wait_exmem_memwb.vhd 2018/05/16.21:50:49 J.36
+EN work/wait_exmem_memwb 1526500367 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_exmem_memwb.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/wait_exmem_memwb/Behavioral 1526500368 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_exmem_memwb.vhd \
+      EN work/wait_exmem_memwb 1526500367
+FL C:/Users/fatih/Desktop/faks/ra/mips/wait_ifid_idex.vhd 2018/06/24.18:50:32 J.36
+EN work/wait_ifid_idex 1529859042 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_ifid_idex.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/wait_ifid_idex/Behavioral 1529859043 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_ifid_idex.vhd \
+      EN work/wait_ifid_idex 1529859042
+FL C:/Users/fatih/Desktop/faks/ra/mips/wait_memwb.vhd 2018/06/24.17:33:13 J.36
+EN work/wait_memwb 1529854396 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_memwb.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/wait_memwb/Behavioral 1529854397 \
+      FL C:/Users/fatih/Desktop/faks/ra/mips/wait_memwb.vhd EN work/wait_memwb 1529854396

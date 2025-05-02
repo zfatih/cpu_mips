@@ -1,0 +1,48 @@
+ command line:
+   ./testbench_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  61320
+
+Fri Feb 09 21:53:17 2018
+
+Total Line Count : 390
+
+ Elaboration time : 0.203125 sec.
+
+ Estimate current memory usage : 309.314 Meg. 
+
+ Total Signals          : 125
+ Total Nets             : 66156
+ Total Signal Drivers   : 67
+ Total Blocks           : 18
+ Total Primitive Blocks : 12
+ Total Processes        : 68
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 66156
+ntrace select -o on -n /testbench_vhd/clk 
+ntrace select -o on -n /testbench_vhd/adresaa 
+ntrace select -o on -n /testbench_vhd/a 
+ntrace select -o on -n /testbench_vhd/adresab 
+ntrace select -o on -n /testbench_vhd/b 
+ntrace select -o on -n /testbench_vhd/adresac 
+ntrace select -o on -n /testbench_vhd/c 
+ntrace select -o on -n /testbench_vhd/adresavanjske 
+ntrace select -o on -n /testbench_vhd/vanjska 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+
+ Simulation time 0.3125 sec.
+
+ Estimate current memory usage : 320.975 Meg. 
+
+Fri Feb 09 21:53:57 2018
+

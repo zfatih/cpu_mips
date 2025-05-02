@@ -1,0 +1,111 @@
+V3 55
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/alu.vhd" 2018/02/09.21:48:09 J.36
+EN work/alu 1518209385 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/alu.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/alu/Behavioral 1518209386 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/alu.vhd" EN work/alu 1518209385
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/amux.vhd" 2018/02/09.21:48:13 J.36
+EN work/amux 1518209383 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/amux.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/amux/Behavioral 1518209384 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/amux.vhd" \
+      EN work/amux 1518209383
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/clkdistrib.vhd" 2018/02/09.21:48:13 J.36
+EN work/clkdistrib 1518209371 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/clkdistrib.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/clkdistrib/Behavioral 1518209372 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/clkdistrib.vhd" \
+      EN work/clkdistrib 1518209371
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mar.vhd" 2018/02/09.21:48:13 J.36
+EN work/mar 1518209389 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mar.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mar/Behavioral 1518209390 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mar.vhd" EN work/mar 1518209389
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mbr.vhd" 2018/02/09.21:48:13 J.36
+EN work/mbr 1518209391 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mbr.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mbr/Behavioral 1518209392 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mbr.vhd" EN work/mbr 1518209391
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mikinstrukcija.vhd" 2018/02/09.21:48:13 J.36
+EN work/mikinstrukcija 1518209373 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mikinstrukcija.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mikinstrukcija/Behavioral 1518209374 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mikinstrukcija.vhd" \
+      EN work/mikinstrukcija 1518209373
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mmux.vhd" 2018/02/09.21:48:14 J.36
+EN work/mmux 1518209377 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mmux.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mmux/Behavioral 1518209378 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mmux.vhd" \
+      EN work/mmux 1518209377
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mseq.vhd" 2018/02/09.21:48:14 J.36
+EN work/mseq 1518209379 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mseq.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/mseq/Behavioral 1518209380 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/mseq.vhd" \
+      EN work/mseq 1518209379
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/registri.vhd" 2018/02/09.21:48:14 J.36
+EN work/registri 1518209381 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/registri.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/registri/Behavioral 1518209382 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/registri.vhd" \
+      EN work/registri 1518209381
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/shifter.vhd" 2018/02/09.21:48:14 J.36
+EN work/shifter 1518209387 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/shifter.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/shifter/Behavioral 1518209388 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/shifter.vhd" \
+      EN work/shifter 1518209387
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/sklop.vhd" 2018/02/09.21:48:05 J.36
+EN work/sklop 1518209395 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/sklop.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/sklop/Behavioral 1518209396 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/sklop.vhd" \
+      EN work/sklop 1518209395 CP clkdistrib CP mikinstrukcija CP upravljackamem \
+      CP mmux CP mseq CP registri CP amux CP alu CP shifter CP mar CP mbr CP vanjskamem
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/testbench.vhd" 2018/02/09.21:52:49 J.36
+EN work/testbench_vhd 1518209575 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/testbench.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/STD_LOGIC_UNSIGNED 1179176991 \
+      PB ieee/NUMERIC_STD 1179176997
+AR work/testbench_vhd/behavior 1518209576 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/testbench.vhd" \
+      EN work/testbench_vhd 1518209575 CP sklop
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/upravljackamem.vhd" 2018/02/09.21:48:14 J.36
+EN work/upravljackamem 1518209375 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/upravljackamem.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/upravljackamem/Behavioral 1518209376 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/upravljackamem.vhd" \
+      EN work/upravljackamem 1518209375
+FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/vanjskamem.vhd" 2018/02/09.21:48:14 J.36
+EN work/vanjskamem 1518209393 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/vanjskamem.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/vanjskamem/Behavioral 1518209394 \
+      FL "C:/Users/Fatih Zukorlic/Desktop/finalnofz/procesor/vanjskamem.vhd" \
+      EN work/vanjskamem 1518209393

@@ -1,0 +1,70 @@
+ command line:
+   ./test_bench_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  56576
+
+Sun Jun 24 19:15:02 2018
+
+Total Line Count : 367
+
+ Elaboration time : 2.98438 sec.
+
+ Estimate current memory usage : 1176.81 Meg. 
+
+ Total Signals          : 142
+ Total Nets             : 2099187
+ Total Signal Drivers   : 48
+ Total Blocks           : 23
+ Total Primitive Blocks : 17
+ Total Processes        : 49
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 2099187
+ntrace select -o on -n /test_bench_vhd/clk 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mem_inst_u_ifid_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mux_pc_u_ifid_i_pc_npc 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_wait_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_registre_adr_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_registre_adr_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_sign_extend_imm 
+ntrace select -o on -n /test_bench_vhd/uut/sa_wait_ifid_u_idex 
+ntrace select -o on -n /test_bench_vhd/uut/sa_registara_u_idex_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_registara_u_idex_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_exmem_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_a_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_b_i_exmem_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_b_imm 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_b_control 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_alu_control 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mux_a_u_alu_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mux_b_u_alu_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_alu_u_exmem_output 
+ntrace select -o on -n /test_bench_vhd/uut/sa_exmem_u_wait_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_exmem_u_mem_podataka_i_mux_npc_i_memwb_aluoutput 
+ntrace select -o on -n /test_bench_vhd/uut/sa_exmem_u_mem_podataka_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_exmem_control 
+ntrace select -o on -n /test_bench_vhd/uut/sa_wait_u_memwb_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_wait_u_memwb_aluoutput 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mem_podataka_u_memwb_data_out 
+ntrace select -o on -n /test_bench_vhd/uut/sa_memwb_u_mux_wb_data_out 
+ntrace select -o on -n /test_bench_vhd/uut/sa_memwb_u_mux_wb_aluoutput 
+ntrace select -o on -n /test_bench_vhd/uut/sa_memwb_u_registre_control 
+ntrace select -o on -n /test_bench_vhd/uut/sa_memwb_u_mux_wb_control 
+ntrace select -o on -n /test_bench_vhd/uut/sa_memwb_u_registre_adresa 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mux_wb_u_registre_data_out 
+ntrace select -o on -n /test_bench_vhd/uut/sa_pc_u_increment_i_mem_instr 
+ntrace select -o on -n /test_bench_vhd/uut/k_pc/pc 
+ntrace select -o on -n /test_bench_vhd/uut/k_registri/reg 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+
+ Simulation time 3.3125 sec.
+
+ Estimate current memory usage : 1188.49 Meg. 
+
+Sun Jun 24 19:15:15 2018
+

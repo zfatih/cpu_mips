@@ -1,0 +1,73 @@
+ command line:
+   ./test_bench_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  56573
+
+Sun Jun 24 19:14:28 2018
+
+Total Line Count : 413
+
+ Elaboration time : 1.45313 sec.
+
+ Estimate current memory usage : 639.074 Meg. 
+
+ Total Signals          : 167
+ Total Nets             : 1083511
+ Total Signal Drivers   : 54
+ Total Blocks           : 25
+ Total Primitive Blocks : 19
+ Total Processes        : 55
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 1083511
+ntrace select -o on -n /test_bench_vhd/clk 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_wait_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_registre_adr_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_ifid_u_registre_adr_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_wait_ifid_u_idex 
+ntrace select -o on -n /test_bench_vhd/uut/sa_registara_u_idex_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_registara_u_idex_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_exmem_ir 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_a_a 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_b_i_exmem_b 
+ntrace select -o on -n /test_bench_vhd/uut/sa_idex_u_mux_b_imm 
+ntrace select -o on -n /test_bench_vhd/uut/k_registri/reg 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/npc_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/a_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/ex_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/mem_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/control 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_a/data_out 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/b_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/imm_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/ex_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/mem_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/control 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_b/data_out 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_mem_data_in/b_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_mem_data_in/ex_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_mem_data_in/mem_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_mem_data_in/control 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_mem_data_in/data_out 
+ntrace select -o on -n /test_bench_vhd/uut/k_vanjska_mem_podaci/mem 
+ntrace select -o on -n /test_bench_vhd/uut/k_preg_idex/ir_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_preg_idex/ir_ex_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_preg_idex/ir_mem_in 
+ntrace select -o on -n /test_bench_vhd/uut/sa_mux_wb_u_registre_data_out 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_wb/mem_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_wb/alu_in 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_wb/control 
+ntrace select -o on -n /test_bench_vhd/uut/k_mux_wb/data_out 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+
+ Simulation time 1.71875 sec.
+
+ Estimate current memory usage : 666.272 Meg. 
+
+Sun Jun 24 19:14:41 2018
+
